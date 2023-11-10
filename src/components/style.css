@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    background: linear-gradient(90deg, #0062ff, #da61ff);
+    height: 100vh;
+    width: 100vw;
+
+}
+p{
+    font-weight: bold;
+    margin-top:0;
+}
+input{
+    width: 15rem;
+    height:2rem;
+    font-size: 1rem;
+}
+button{
+    margin-top: 12px;
+    margin-bottom: 0px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: rgb(41, 151, 159);
+    color: white;
+    font-size: medium;
+    cursor: pointer;
+    box-shadow: 2px 3px 4px gray;
+}
+.item{
+    margin: 0px 0px 0px 0px;    
+}
